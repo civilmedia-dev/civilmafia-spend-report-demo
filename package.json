@@ -1,0 +1,32 @@
+{
+  "name": "civilmafia-spend-report",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Reporte general de spend de CivilMafia sobre BigQuery (civil-datalake).",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@google-cloud/bigquery": "9.6.1",
+    "next": "15.5.28",
+    "react": "19.1.10",
+    "react-dom": "19.1.10",
+    "server-only": "0.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "22.15.30",
+    "@types/react": "19.1.8",
+    "@types/react-dom": "19.1.6",
+    "eslint": "9.39.5",
+    "eslint-config-next": "15.5.28",
+    "@eslint/eslintrc": "3.3.1",
+    "typescript": "5.9.3"
+  }
+}
